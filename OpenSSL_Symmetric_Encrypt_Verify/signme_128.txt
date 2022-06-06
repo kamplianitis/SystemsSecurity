@@ -1,0 +1,4 @@
+Sign this file using a 128-bit key.
+The key should be generated using TUC<AM> as password.
+For example, if your AM is 2020123456 the password should be TUC2020123456.
+Store the ciphertext concatenated with its CMAC.

@@ -1,0 +1,90 @@
+TODO
+
+Amplianitis Konstantinos
+2017030014
+gcc (Ubuntu 9.3.0-17ubuntu1~20.04) 9.3.0
+
+
+RSA Implementation
+////////////////////////////////////////////
+TUC Systems and  Security 
+///////////////////////////////////////////
+
+rsa.c
+//////////////////////////////////////////
+
+This file contains the following functions
+
+1.) Sieve of Eratosthenes
+Function that uses the specific algorithm to 
+create and return a table of all the prime numbers
+until a limit.
+
+2.)gcd
+Function that finds the greatest common denominator
+between two numbers.
+
+3.)choose_e
+Function that chooses randomly a prime number that 
+satisfies both the conditions e%fi(n) =0 and 
+gdc(e,fi(n)) = 1.
+
+4.)mod_inverse
+Function that finds the mod inverse between two 
+numbers.
+
+5.)rsa_keygen
+Function that generates two keys (Public, Private) based
+on the RSA algorithm using the above functions.
+In the end it stores the keys into two files (Public.key,
+Private.key).
+
+6.)rsa_encrypt
+Function that reads from an input file, encrypts its contents 
+using the RSA algorithm and stores the encrypted data in the 
+output file it takes as an arguement. The writing is beeing done
+with sizeof(size_t) to be able to read the data to decrypt the file.
+
+7.)rsa_decrypt
+Function that reads from an input file, decrypts its contents 
+using the RSA algorithm and stores the decrypted data in the 
+output file it takes as an arguement. 
+
+8.)modular_power
+Function that is used to calculate the modular power of two 
+size_t and return the result.
+
+
+utils.c
+//////////////////////////////////////////
+
+In this file there is Implementation of functions
+that have been written in previous labs.
+
+
+1.)file_size
+Function that calculates the size of a file with 
+the use of fseek and ftell.
+
+2.)InputFile_Read
+Function that reads the contents of a file and 
+returns both the size of it and its contents.
+
+3.)Write_Data
+Function that opens a file with a specific mode 
+and writes the contents of a buffer(arguement) 
+into the opened file. (sizeof(unsigned char))
+
+4.)Write_sizeT
+Function that opens a file with a specific mode 
+and writes the contents of a buffer(arguement) 
+into the opened file. (sizeof(size_t))
+
+
+TESTING
+//////////////////////////////////////////
+
+All the files have been encrypted and decrypted
+the right way using the keys given. I also created
+my keys and a file to test encrypting it and decrypting
+it after and the procedure was sucessful.
