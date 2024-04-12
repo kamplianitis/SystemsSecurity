@@ -1,6 +1,5 @@
 Amplianitis Konstantinos
-2017030014
-gcc (Ubuntu 9.3.0-17ubuntu1~20.04) 9.3.0
+gcc (Ubuntu 9.3.0-17ubuntu1~20.04)
 
 
 Assignment 3 -- Creation of a file logging tool
